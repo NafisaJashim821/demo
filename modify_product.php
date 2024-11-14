@@ -26,21 +26,18 @@
         </div>
     </div>
 
-    <!-- Apply Discount -->
+    <!-- old price -->
     <div class="mt-8">
-        <label class="text-gray-800 text-xs block mb-2">Apply Discount (%)</label>
-        <div class="relative flex items-center">
-            <input id="discount" name="discount" type="number" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Enter the discount" min="0" step="0.01" />
+            <label class="text-gray-800 text-xs block mb-2">Old Price</label>
+            <input id="productPrice" name="productPrice" type="number"  required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Enter the old price" />
         </div>
-    </div>
-
-    <!-- Special Offer -->
-    <div class="mt-8">
-        <label class="text-gray-800 text-xs block mb-2">Special Offer</label>
-        <div class="relative flex items-center">
-            <input id="specialOffer" name="specialOffer" type="text" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Enter the offer" />
+        <!--new price-->
+        <div class="mt-8">
+            <label class="text-gray-800 text-xs block mb-2">New Price</label>
+            <input id="productPrice" name="productPrice" type="number"  required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Enter the new  price" />
         </div>
-    </div>
+ 
+   
 
     <!-- Submit Button -->
     <div class="flex justify-center mt-12">

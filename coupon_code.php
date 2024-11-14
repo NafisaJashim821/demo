@@ -1,28 +1,20 @@
 <form id="couponForm">
     <h1 class="text-center font-bold text-black text-xl">Create A New Coupon</h1>
 
+
+    <div class="mb-4">
+        <label class="text-gray-800 text-xs block mb-2">Coupon Id</label>
+        <input id="couponName" name="couponName" type="number" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" >
+    </div>
+
+    <div class="mb-4">
+        <label class="text-gray-800 text-xs block mb-2">Coupon Code</label>
+        <input id="couponName" name="couponName" type="number" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" >
+    </div>
     <!-- Coupon Name -->
     <div class="mb-4">
         <label class="text-gray-800 text-xs block mb-2">Coupon Name</label>
         <input id="couponName" name="couponName" type="text" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="E.g., Mother's Day Discount">
-    </div>
-
-    <!-- Discount Percentage -->
-    <div class="mb-4">
-        <label class="text-gray-800 text-xs block mb-2">Discount Percentage</label>
-        <input id="discountPercentage" name="discountPercentage" type="number" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="E.g., 20" min="1" max="100">
-    </div>
-
-    <!-- Start Date -->
-    <div class="mb-4">
-        <label class="text-gray-800 text-xs block mb-2">Start Date</label>
-        <input id="startDate" name="startDate" type="date" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none">
-    </div>
-
-    <!-- End Date -->
-    <div class="mb-4">
-        <label class="text-gray-800 text-xs block mb-2">End Date</label>
-        <input id="endDate" name="endDate" type="date" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none">
     </div>
 
     <!-- Occasion -->
@@ -40,12 +32,31 @@
             <option value="other">Other</option>
         </select>
     </div>
-
-    <!-- Description -->
-    <div class="mb-4">
+  
+     <!-- Description -->
+     <div class="mb-4">
         <label class="text-gray-800 text-xs block mb-2">Description</label>
         <textarea id="description" name="description" class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Add any additional details"></textarea>
     </div>
+    <!-- min purchase -->
+    <div class="mb-4">
+        <label class="text-gray-800 text-xs block mb-2">Minimum Purchase</label>
+        <input id="discountPercentage" name="discountPercentage" type="number" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none"  min="700" >
+    </div>
+
+    <!-- Start Date -->
+    <div class="mb-4">
+        <label class="text-gray-800 text-xs block mb-2">Start Date</label>
+        <input id="startDate" name="startDate" type="date" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none">
+    </div>
+
+    <!-- End Date -->
+    <div class="mb-4">
+        <label class="text-gray-800 text-xs block mb-2">End Date</label>
+        <input id="endDate" name="endDate" type="date" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none">
+    </div>
+
+
 
     <!-- Submit Button -->
     <div class="mt-6">
